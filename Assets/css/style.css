@@ -1,3 +1,6 @@
+.justify-content-end a.nav-link i {color: white}
+.justify-content-end a:hover.nav-link i {color: gray}
+
 html {
     background: rgb(218, 217, 216);
 }
@@ -7,6 +10,7 @@ body {
     top: 0;
     position: relative;
 }
+
 .NavTitle {
     float: left;
     padding: 10px;
@@ -15,6 +19,7 @@ body {
     color: white;
     font-family: 'Indie Flower', cursive;
 }
+.navbar-brand 
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -105,3 +110,14 @@ input[type=text], select, textarea {
 .Textbox {
     position: absolute;
 }
+
+@media (min-width: 640px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 980px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
